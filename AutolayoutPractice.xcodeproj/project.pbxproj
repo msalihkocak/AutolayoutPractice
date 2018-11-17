@@ -12,6 +12,9 @@
 		9DA54D56219F42680023F0EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA54D54219F42680023F0EF /* Main.storyboard */; };
 		9DA54D58219F42690023F0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA54D57219F42690023F0EF /* Assets.xcassets */; };
 		9DA54D5B219F42690023F0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA54D59219F42690023F0EF /* LaunchScreen.storyboard */; };
+		9DA54D63219FF89B0023F0EF /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA54D62219FF89B0023F0EF /* SwipingController.swift */; };
+		9DA54D6521A0021C0023F0EF /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA54D6421A0021C0023F0EF /* PageCell.swift */; };
+		9DA54D6721A0098A0023F0EF /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA54D6621A0098A0023F0EF /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9DA54D57219F42690023F0EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA54D5A219F42690023F0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DA54D5C219F42690023F0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA54D62219FF89B0023F0EF /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		9DA54D6421A0021C0023F0EF /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		9DA54D6621A0098A0023F0EF /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				9DA54D57219F42690023F0EF /* Assets.xcassets */,
 				9DA54D59219F42690023F0EF /* LaunchScreen.storyboard */,
 				9DA54D5C219F42690023F0EF /* Info.plist */,
+				9DA54D62219FF89B0023F0EF /* SwipingController.swift */,
+				9DA54D6421A0021C0023F0EF /* PageCell.swift */,
+				9DA54D6621A0098A0023F0EF /* Page.swift */,
 			);
 			path = AutolayoutPractice;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			files = (
 				9DA54D53219F42680023F0EF /* ViewController.swift in Sources */,
 				9DA54D51219F42680023F0EF /* AppDelegate.swift in Sources */,
+				9DA54D6521A0021C0023F0EF /* PageCell.swift in Sources */,
+				9DA54D63219FF89B0023F0EF /* SwipingController.swift in Sources */,
+				9DA54D6721A0098A0023F0EF /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
