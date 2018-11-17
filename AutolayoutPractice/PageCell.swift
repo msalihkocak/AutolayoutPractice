@@ -48,33 +48,6 @@ class PageCell:UICollectionViewCell{
         return view
     }()
     
-//    private let previousButton: UIButton = {
-//        let button = UIButton(type: .system)
-//        button.setTitle("PREV", for: .normal)
-//        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)
-//        button.tintColor = UIColor.gray
-//        button.translatesAutoresizingMaskIntoConstraints = false
-//        return button
-//    }()
-//
-//    private let nextButton: UIButton = {
-//        let button = UIButton(type: .system)
-//        button.setTitle("NEXT", for: .normal)
-//        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)
-//        button.tintColor = .mainPink
-//        button.translatesAutoresizingMaskIntoConstraints = false
-//        return button
-//    }()
-//
-//    private let pageControl: UIPageControl = {
-//        let pc = UIPageControl()
-//        pc.currentPage = 0
-//        pc.numberOfPages = 4
-//        pc.currentPageIndicatorTintColor = .mainPink
-//        pc.pageIndicatorTintColor = UIColor.mainPink.withAlphaComponent(0.25)
-//        pc.translatesAutoresizingMaskIntoConstraints = false
-//        return pc
-//    }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -82,26 +55,11 @@ class PageCell:UICollectionViewCell{
         upperHalfView.addSubview(bearImageView)
         addSubview(descriptionTextView)
         
-//        setupBottomControls()
-        
         setupUpperHalfView()
         setupBearImageView()
         setupDescriptionTextView()
     }
     
-//    fileprivate func setupBottomControls(){
-//        let stackView = UIStackView(arrangedSubviews: [previousButton, pageControl, nextButton])
-//        stackView.translatesAutoresizingMaskIntoConstraints = false
-//        stackView.distribution = .fillEqually
-//
-//        addSubview(stackView)
-//        [
-//            stackView.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -4),
-//            stackView.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor),
-//            stackView.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor),
-//            stackView.heightAnchor.constraint(equalToConstant: 50)
-//            ].forEach({$0.isActive = true})
-//    }
     
     private func setupUpperHalfView(){
         [
